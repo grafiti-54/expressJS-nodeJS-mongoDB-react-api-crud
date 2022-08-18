@@ -32,7 +32,7 @@ module.exports = function ValidateUser(data) {
     }
 
     return {
-        errors,
+        errors: errors,
         isValid: isEmpty(errors)
     }
 }
